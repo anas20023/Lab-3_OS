@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "Anas Ibn Belal"
+read x
+read y
+echo $(($x + $y))
