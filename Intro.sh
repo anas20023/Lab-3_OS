@@ -1,4 +1,4 @@
 #!/bin/bash
-read x
-read y
+read -r x
+read -r y
 echo $(($x + $y))
