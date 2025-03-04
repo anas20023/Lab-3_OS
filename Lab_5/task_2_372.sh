@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# shellcheck disable=SC2162
 read  -p "Enter a Number: " n
 #echo $n
 isPrime(){

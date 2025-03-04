@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# shellcheck disable=SC2162
 read n
 isLeapYear(){
     local yr=$1
@@ -10,4 +11,4 @@ isLeapYear(){
         echo "Not Leap Year"  
     fi
 }
-isLeapYear $n
+isLeapYear "$n"
