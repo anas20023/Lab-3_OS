@@ -13,7 +13,7 @@ is_leap_year() {
 
 
 if is_leap_year "$yr"; then
-    echo "Nearest Leap Year: $yr"
+    echo "Leap Year: $yr"
 else
     
     up=$yr
